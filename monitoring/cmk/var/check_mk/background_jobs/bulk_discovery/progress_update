@@ -1,0 +1,8 @@
+Bulk discovery started...
+localhost: discovery successful
+node01: discovery successful
+Bulk discovery finished.
+Hosts: 2 total (2 succeeded, 0 skipped, 0 failed)
+Host labels: 3 total (3 added)
+Services: 13 total (13 added, 13 removed, 0 kept)
+Bulk discovery successful

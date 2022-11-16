@@ -1,0 +1,1 @@
+{'cmk/check_mk_server': {'value': 'yes', 'plugin_name': 'omd_info'}, 'cmk/device_type': {'value': 'container', 'plugin_name': 'labels'}, 'cmk/os_family': {'value': 'linux', 'plugin_name': 'check_mk'}}
