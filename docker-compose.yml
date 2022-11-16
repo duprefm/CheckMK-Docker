@@ -5,13 +5,13 @@ version: '3.6'
 services:
   node01:
     container_name: node01
-    image: ubuntu:latest
+    image: fabricedupre/ubuntu-node:latest
     restart: on-failure
     command: ["sleep","infinity"] 
     #volumes:
     #  - ./node01:/opt
-    ports:
-      - "6556:6556"
+    #ports:
+    #  - "6556:6556"
     networks:
       checkmk_network:
 

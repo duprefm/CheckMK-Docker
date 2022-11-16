@@ -1,4 +1,0 @@
-22/11/16@15:06:56 xinetd[18684]: DEBUG: Reading included configuration file: /omd/sites/cmk/etc/xinetd.d/mk-livestatus [file=/omd/sites/cmk/etc/xinetd.conf] [line=14]
-22/11/16@15:06:56 xinetd[18684]: NOTICE: 2.3.15.3 started with libwrap loadavg labeled-networking options compiled in.
-22/11/16@15:06:56 xinetd[18684]: NOTICE: Started working: 1 available service
-22/11/16@18:06:17 xinetd[18684]: WARNING: Exiting...

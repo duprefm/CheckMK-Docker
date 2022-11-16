@@ -1,1 +1,0 @@
-{'alias': 'Check_MK Automation - used for calling web services', 'contactgroups': [], 'automation_secret': 'c0ab715c-a504-4f72-b00f-aff01f1c14ef', 'roles': ['admin'], 'locked': False, 'email': '', 'pager': '', 'notifications_enabled': False, 'language': 'en'}

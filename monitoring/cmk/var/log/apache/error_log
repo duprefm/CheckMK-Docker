@@ -1,8 +1,0 @@
-[Wed Nov 16 14:15:21.942500 2022] [mpm_prefork:notice] [pid 555] AH00163: Apache/2.4.38 (Debian) mod_wsgi/4.7.0 Python/3.8 mod_fcgid/2.3.9 configured -- resuming normal operations
-[Wed Nov 16 14:15:21.942604 2022] [core:notice] [pid 555] AH00094: Command line: '/usr/sbin/apache2 -f /omd/sites/cmk/etc/apache/apache.conf'
-[Wed Nov 16 15:00:55.487481 2022] [wsgi:error] [pid 13582] [client 172.18.0.1:43146] /omd/sites/cmk/lib/python3/apispec/ext/marshmallow/__init__.py:209: UserWarning: <class 'cmk.gui.fields.definitions.ExprSchema'> has already been added to the spec. Adding it twice may cause references to not resolve properly., referer: http://localhost:8080/cmk/check_mk/openapi/
-[Wed Nov 16 15:00:55.487502 2022] [wsgi:error] [pid 13582] [client 172.18.0.1:43146]   warnings.warn(, referer: http://localhost:8080/cmk/check_mk/openapi/
-[Wed Nov 16 15:05:51.558178 2022] [mpm_prefork:notice] [pid 555] AH00169: caught SIGTERM, shutting down
-[Wed Nov 16 15:06:55.231553 2022] [mpm_prefork:notice] [pid 18648] AH00163: Apache/2.4.38 (Debian) mod_wsgi/4.7.0 Python/3.8 mod_fcgid/2.3.9 configured -- resuming normal operations
-[Wed Nov 16 15:06:55.231625 2022] [core:notice] [pid 18648] AH00094: Command line: '/usr/sbin/apache2 -f /omd/sites/cmk/etc/apache/apache.conf'
-[Wed Nov 16 18:06:19.168937 2022] [mpm_prefork:notice] [pid 18648] AH00169: caught SIGTERM, shutting down
