@@ -5,19 +5,19 @@ version: '3.6'
 services:
   node01:
     container_name: node01
-    image: fabricedupre/ubuntu-node:latest
+    image: fabricedupre/centos-node:latest
     restart: on-failure
     command: ["sleep","infinity"] 
-    #volumes:
-    #  - ./node01:/opt
-    #ports:
-    #  - "6556:6556"
+    volumes:
+      - ./node01:/opt
+    ports:
+      - "6556:6556"
     networks:
       checkmk_network:
 
   checkmk:
     container_name: monitoring 
-    image: checkmk/check-mk-raw:2.0.0-latest 
+    image: checkmk/check-mk-raw:2.1.0-latest 
     tmpfs:
       - /opt/omd/sites/cmk/tmp:uid=1000,gid=1000
     ulimits:

@@ -90,6 +90,6 @@ Host Checks:
 echo -e "localhost\tCheckBackupError\t0\tTEST\n" | /usr/sbin/send_nsca -H 172.18.0.3 -c /opt/omd/sites/cmk/etc/nsca/send_nsca.cfg -p 5667
 
 # Fabriquer un container avec ports specifiques CheckMK
-docker build -t ubuntu-node .
-docker tag ubuntu-node:latest fabricedupre/ubuntu-node:latest 
-docker push fabricedupre/ubuntu-node:latest
+docker build -t centos-node .
+docker tag centos-node:latest fabricedupre/centos-node:latest 
+docker push fabricedupre/centos-node:latest
