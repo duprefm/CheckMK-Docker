@@ -65,11 +65,12 @@ http://localhost:8080/cmk/check_mk/
 
 ## Configuration de NSCA via omd config
 
-## Installation nsca sur monitoring
+### Installation nsca sur monitoring
     apt install gcc make autoconf libc-dev pkg-config libmcrypt-dev php-pear php-dev
     apt install nsca
 
 - Aide d'utilisation de send_nsca
+
     Usage: send_nsca -H <host_address> [-p port] [-to to_sec] [-d delim] [-c config_file]
 
     Options:
@@ -88,6 +89,7 @@ http://localhost:8080/cmk/check_mk/
     <host_name>[tab]<return_code>[tab]<plugin_output>[newline]
 
 - Commade de test d'envoi vers le serveur CheckMK
+
     echo -e "localhost\tCheckBackupError\t0\tTEST\n" | /usr/sbin/send_nsca -H 172.18.0.3 -c /opt/omd/sites/cmk/etc/nsca/send_nsca.cfg -p 5667
 
 ## Fabriquer un container avec ports specifiques CheckMK
