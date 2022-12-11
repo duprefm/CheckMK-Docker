@@ -50,10 +50,10 @@
     # apt install check-mk-agent
 
 - Le site est disponible a l'adresse suivante
-http://localhost:8080/cmk/check_mk/
+    http://localhost:8080/cmk/check_mk/
 
 - Le package se situe a l'endroit suivant
-/opt/omd/versions/2.0.0p30.cre/share/check_mk/agents/check-mk-agent_2.0.0p30-1_all.deb
+    /opt/omd/versions/2.0.0p30.cre/share/check_mk/agents/check-mk-agent_2.0.0p30-1_all.deb
 
 ## Installation de l'agent sur node01
     # apt update
@@ -69,7 +69,7 @@ http://localhost:8080/cmk/check_mk/
     apt install gcc make autoconf libc-dev pkg-config libmcrypt-dev php-pear php-dev
     apt install nsca
 
-- Aide d'utilisation de send_nsca
+### Aide d'utilisation de send_nsca
 
     Usage: send_nsca -H <host_address> [-p port] [-to to_sec] [-d delim] [-c config_file]
 
@@ -88,7 +88,7 @@ http://localhost:8080/cmk/check_mk/
     Host Checks:
     <host_name>[tab]<return_code>[tab]<plugin_output>[newline]
 
-- Commade de test d'envoi vers le serveur CheckMK
+### Commade de test d'envoi vers le serveur CheckMK
 
     echo -e "localhost\tCheckBackupError\t0\tTEST\n" | /usr/sbin/send_nsca -H 172.18.0.3 -c /opt/omd/sites/cmk/etc/nsca/send_nsca.cfg -p 5667
 
